@@ -1,16 +1,16 @@
 import streamlit as st
-from textblob import TextBlob
+#from textblob import TextBlob
 import distutils
 from autocorrect import Speller
 from language_tool_python import LanguageTool
 import requests
 import pyperclip
 
-import nltk
+#import nltk
 
 # Download required NLTK resources
-nltk.download('wordnet')
-nltk.download('omw-1.4')  # Download the Open Multilingual Wordnet
+#nltk.download('wordnet')
+#nltk.download('omw-1.4')  # Download the Open Multilingual Wordnet
 
 
 # Function to check spelling and grammar in the provided text
